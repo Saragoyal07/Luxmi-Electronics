@@ -222,7 +222,7 @@ function HeroSection() {
             Trusted electrical distributor since 1978
           </div>
           <h1 className="text-5xl md:text-6xl font-black leading-tight mb-6 tracking-tight">
-            Powering Homes,
+            Powering Houses,
             <br />
             Businesses &amp;{" "}
             <span style={{ color: BRAND }}>Industries</span>
