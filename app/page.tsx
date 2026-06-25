@@ -220,13 +220,9 @@ export default function Home() {
       <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/80 backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <a href="#top" className="flex items-center gap-3">
-              <span className="grid place-items-center w-9 h-9 rounded-md bg-zinc-900 text-white font-display font-bold text-sm">
-                LE
-              </span>
-              <span className="font-display font-bold tracking-tight leading-none">
-                Luxmi Electric <span className="text-zinc-400">Sales</span>
-              </span>
+            <a href="#top" className="flex items-center">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/logo_luxmielectric-removebg-preview.png" alt="Luxmi Electric Sales" className="h-10 w-auto object-contain" />
             </a>
 
             <nav className="hidden md:flex items-center gap-8">
@@ -616,8 +612,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 grid gap-10 md:grid-cols-4">
           <div>
             <div className="flex items-center gap-3">
-              <span className="grid place-items-center w-9 h-9 rounded-md bg-white text-black font-display font-bold text-sm">LE</span>
-              <span className="text-white font-display font-bold">Luxmi Electric Sales</span>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/logo_luxmielectric-removebg-preview.png" alt="Luxmi Electric Sales" className="h-12 w-auto object-contain brightness-0 invert" />
             </div>
             <p className="mt-4 text-sm text-zinc-500">
               Powering homes, businesses &amp; industries across Chandigarh and the Tricity since 1978.
